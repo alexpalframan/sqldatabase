@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function callme(){
+                return true;
+            }
+        </script>
+        <form action="infophp.php" method="post" onsubmit="return callme()">
+            <fieldset>
+            <label for="firstname">First name:<br>
+            <input type="text" id="firstname" name="firstname"><br>
+        </label>
+            <label for="pass">Password:<br>
+            <input type="text" id="pass" name="pass"><br>
+        </label>
+            <label for="confirm_pass">Confirm Password:</label><br>
+            <input type="text" id="confirm_pass" name="confirm_pass"><br>
+
+            <label>Male<input type="radio" name="gender" value="male" /></label><br>
+            <label>Female<input type="radio" name="gender" value="female" /></label><br>
+            <label>Other<input type="radio" name="gender" value="Other" /></label><br>
+
+            <label for="address_line_1">Address Line 1:<br>
+            <input type="text" id="address_line_1" name="address_line_1"></label><br>
+
+            <label for="address_line_2">Address Line 2:<br>
+            <input type="text" id="address_line_2" name="address_line_2"></label><br>
+
+            <label for="city">City:<br>
+            <input type="text" id="city" name="city"></label><br>
+
+            <label for="county">County:<br>
+            <input type="text" id="county" name="county"></label><br>
+
+            <label fo="house_number">House Number:<br>
+            <input type="text" id="house_number" name="house_number"></label><br>
+
+            <label for="post_code">Postal Code:<br>
+            <input type="text" id="post_code" name="post_code"></label><br>
+
+            <label for="contact_number">Contact Number:</label><br>
+            <input type="text" id="contact_number" name="contact_number"></label><br>
+
+            <label for="email">Email:<br>
+            <input type="text" id="email" name="email"></label><br>
+
+            <label for="submit">Submit<br>
+            <input type="submit" id="submit" name="submit" /></label>
+        </fieldset>
+
+
+          
+                
+            </form>
+    </body>
+</html>
